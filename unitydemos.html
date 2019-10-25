@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+   <head>   
+		<title>Ken Catterall</title>
+		<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+		
+		<script src="includehtml.js"></script>				
+  </head>	  
+  
+  <body>
+		<!-- <div id="main" style="background-color: #440000" > -->
+		<div id="main" style="background: url(images/LeafDream_banner_dark_linkedin.png) no-repeat">
+		
+			<div class="container">			
+				<div id="header">				 
+					<div id="logo">
+						<h1>Ken Catterall</h1>
+					</div>
+					<div id="tagline"><h3>Unity Demos</h3></div>				 
+					<div style="clear:both"></div>
+					
+					<div w3-include-html="menu.html"></div>		<!--menu goes here -->			
+				</div><!--end header -->
+				
+				<div id="content">
+						
+						<div w3-include-html="aboutme.html"></div>		<!-- 'about me' section -->	
+				
+				</div><!--end content-->
+				
+				<div id="sidebar">
+					<div id="subscribe">
+						<h3>WebGL Demos</h3>
+						<ul>
+							<li><a href="runninggame.html">Parting Shot</a></li>
+							<li><a href="footballgame.html">Gladiator Football</a></li>
+						</ul>
+						
+						<h3>Video captures</h3>
+						<video width="640" height="300" controls>
+						  <source src="videos/partingshot.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+						</video>
+						
+						
+						<video width="640" height="300" controls>
+						  <source src="videos/football_baths.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+						</video>
+					</div>
+				</div><!--end sidebar-->
+				<div style="clear:both"></div>
+			</div><!--end main container-->
+	
+		</div> <!-- end main -->
+	
+		<div id="footer">
+		
+			
+			
+				<div class="container">		
+					
+				</div><!--end footer container-->
+			
+			
+			<div style="clear:both"></div>
+				
+		</div><!--end footer-->
+		
+		<script>
+			<!-- include external html files -->
+			includeHTML();
+		</script>
+  </body>
+</html>
