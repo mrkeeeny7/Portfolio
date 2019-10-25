@@ -38,11 +38,6 @@ body {
   border-color: blue;
 }
 
-video {
-	width: 400px;
-	height:200px;
-}
-
 
 #main  {
 /*    background: url(images/LeafDream_banner_dark_linkedin.png) no-repeat; */
@@ -353,10 +348,22 @@ ul#subscribe li a {
   padding-top: 50px;
   float: left;
   
-  /*border-style: solid;
+  border-style: solid;
   border-width: 1px;
-  border-color: red;*/
+  border-color: red;
 }
+
+#ytplayer {
+
+	width: 400px;
+	height:200px;
+}
+
+video {
+	width: 400px;
+	height:200px;
+}
+
 
 #canvas {
   /*height: 480px;*/
