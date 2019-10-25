@@ -366,6 +366,13 @@ ul#subscribe li a {
 video {
 	width: 400px;
 	height:200px;
+	padding-top: 10px;
+}
+
+.portrait-video {
+	width: 200px;
+	height:350px;
+	padding-top: 10px;
 }
 
 .caption
