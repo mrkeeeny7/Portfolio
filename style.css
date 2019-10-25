@@ -38,6 +38,11 @@ body {
   border-color: blue;
 }
 
+video {
+	width: 80%;
+	heaight:300;
+}
+
 
 #main  {
 /*    background: url(images/LeafDream_banner_dark_linkedin.png) no-repeat; */
