@@ -497,35 +497,16 @@ table td,table th
 	font-family:"Verdana";
 	font-style:normal
 }
-.c3
+
+.text-normal
 {
-color:#000000;
-font-weight:400;
-text-decoration:none;
-vertical-align:baseline;
-font-size:9pt;
-font-family:"Verdana";
-font-style:normal
-}
-.c4
-{
-padding-top:16pt;
-padding-bottom:0pt;
-line-height:1.0;
-page-break-after:avoid;
-text-align:left;
-margin-right:8.2pt;
-height:12pt
-}
-.c16
-{
-color:#000000;
-font-weight:400;
-text-decoration:none;
-vertical-align:baseline;
-font-size:10pt;
-font-family:"Verdana";
-font-style:normal
+	color:#000000;
+	font-weight:400;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:10pt;
+	font-family:"Verdana";
+	font-style:normal
 }
 .c10
 {
@@ -580,15 +561,7 @@ margin-right:13pt
 font-weight:700
 }
 
-.c51
-{
-padding-top:0pt;
-padding-bottom:0pt;
-line-height:1.15;
-orphans:2;
-widows:2;
-text-align:left
-}
+
 .c35
 {
 color:#000000;
@@ -651,10 +624,17 @@ margin:0
 font-weight:400;
 font-style:italic
 }
-.c56
+.contact-para
 {
-margin-left:18pt;
-text-indent:-22.5pt
+	padding-top:0pt;
+	padding-bottom:0pt;
+	line-height:1.15;
+	orphans:2;
+	widows:2;
+	text-align:left;
+
+	margin-left:18pt;
+	text-indent:-22.5pt
 }
 .c60
 {
@@ -664,9 +644,9 @@ font-style:italic
 {
 font-size:9pt
 }
-.c40
+.vgap-10pt
 {
-height:10pt
+	height:10pt
 }
 
 
@@ -719,7 +699,7 @@ height:10pt
 }
 .row-topspacer
 {
-	height: 9pt
+	height: 25pt
 }
 .row-keyskills
 {
@@ -745,10 +725,10 @@ height:10pt
 {
 	height:45pt
 }
-.row-bottomspace
+.row-bottomspacer
 {
 	/*height:15pt*/
-	height:9pt
+	height:25pt
 }
 .row-bottombar
 {
