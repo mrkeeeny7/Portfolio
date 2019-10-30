@@ -235,6 +235,9 @@ table td,table th
 {
 	padding:0
 }
+
+
+/* table cells,borders */
 .c5
 {
 	border-right-style:solid;
@@ -248,25 +251,6 @@ table td,table th
 	border-left-width:0pt;
 	border-top-style:solid;
 	/*background-color:#ffffff;*/
-	border-left-style:solid;
-	border-bottom-width:0pt;
-	width:230.2pt;
-	border-top-color:#efefef;
-	border-bottom-style:solid
-}
-.c50
-{
-	border-right-style:solid;
-	padding:5pt 5pt 5pt 5pt;
-	border-bottom-color:#efefef;
-	border-top-width:0pt;
-	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:#efefef;
-	border-left-width:0pt;
-	border-top-style:solid;
-	background-color:var(--sidebar-color);
 	border-left-style:solid;
 	border-bottom-width:0pt;
 	width:230.2pt;
@@ -291,7 +275,7 @@ table td,table th
 	border-top-color:var(--sidebar-color);
 	border-bottom-style:solid
 }
-.c1
+.cell-main
 {
 	border-right-style:solid;
 	border-bottom-color:#efefef;
@@ -303,13 +287,15 @@ table td,table th
 	border-left-width:1.5pt;
 	border-top-style:solid;
 	/*background-color:#ffffff;*/
+	/*background-color:var(--sidebar-color);*/
 	border-left-style:solid;
 	border-bottom-width:0pt;
 	width:372pt;
 	border-top-color:#efefef;
 	border-bottom-style:solid
 }
-.c38
+
+.cell-leftcolumn
 {
 	border-right-style:solid;
 	border-bottom-color:#efefef;
@@ -327,7 +313,7 @@ table td,table th
 	border-top-color:#efefef;
 	border-bottom-style:solid
 }
-.c24
+.cell-title
 {
 	border-right-style:solid;
 	border-bottom-color:var(--sidebar-color);
@@ -345,43 +331,7 @@ table td,table th
 	border-top-color:var(--sidebar-color);
 	border-bottom-style:solid
 }
-.c34
-{
-	border-right-style:solid;
-	border-bottom-color:#efefef;
-	border-top-width:0pt;
-	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:#efefef;
-	border-left-width:0pt;
-	border-top-style:solid;
-	background-color:var(--sidebar-color);
-	border-left-style:solid;
-	border-bottom-width:0pt;
-	width:141.8pt;
-	border-top-color:#efefef;
-	border-bottom-style:solid
-}
 
-.c59
-{
-	border-right-style:solid;
-	padding:5pt 5pt 5pt 5pt;
-	border-bottom-color:var(--sidebar-color);
-	border-top-width:2.2pt;
-	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:#efefef;
-	border-left-width:0pt;
-	border-top-style:solid;
-	border-left-style:solid;
-	border-bottom-width:2.2pt;
-	width:230.2pt;
-	border-top-color:var(--sidebar-color);
-	border-bottom-style:solid
-}
 .c52
 {
 	border-right-style:solid;
@@ -404,7 +354,7 @@ table td,table th
 /* todo remove all border fortmatting except where necessary
 	use global default (0 border width)
 	*/
-.c12		/* space cell between title and main body */
+.cell-topspacer		/* space cell between title and main body */
 {
 	border-bottom-color:#efefef;
 	border-top-width:2.2pt;
@@ -417,38 +367,35 @@ table td,table th
 	width:471.8pt;
 	border-bottom-style:solid
 }
-.c39
+.cell-bottomspacer		/* added by me */
+{
+	border-bottom-color:#efefef;
+	/*border-top-width:2.2pt;*/
+	border-left-color:#efefef;
+	vertical-align:middle;
+	border-left-width:0pt;
+	/*border-top-style:solid;*/
+	border-left-style:solid;
+	border-bottom-width:0pt;
+	width:471.8pt;
+	border-bottom-style:solid
+}
+.cell-bottombar
 {
 	border-right-style:solid;
 	border-bottom-color:var(--sidebar-color);
-	border-top-width:0pt;
+	border-top-width:2.2pt;
 	border-right-width:0pt;
 	border-left-color:#efefef;
 	vertical-align:middle;
 	border-right-color:#efefef;
 	border-left-width:0pt;
 	border-top-style:solid;
+	background-color:var(--sidebar-color);
 	border-left-style:solid;
 	border-bottom-width:2.2pt;
-	width:141.8pt;
-	border-top-color:#efefef;
-	border-bottom-style:solid
-}
-.c42
-{
-	border-right-style:solid;
-	border-bottom-color:#efefef;
-	border-top-width:0pt;
-	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:#efefef;
-	border-left-width:0pt;
-	border-top-style:solid;
-	border-left-style:solid;
-	border-bottom-width:0pt;
 	width:471.8pt;
-	border-top-color:#efefef;
+	border-top-color:var(--sidebar-color);
 	border-bottom-style:solid
 }
 .c7
@@ -468,52 +415,19 @@ table td,table th
 	border-top-color:var(--sidebar-color);
 	border-bottom-style:solid
 }
-.c69
-{
-border-right-style:solid;
-border-bottom-color:#efefef;
-border-top-width:0pt;
-border-right-width:0pt;
-border-left-color:#efefef;
-vertical-align:top;
-border-right-color:#efefef;
-border-left-width:0pt;
-border-top-style:solid;
-border-left-style:solid;
-border-bottom-width:0pt;
-width:141.8pt;
-border-top-color:#efefef;
-border-bottom-style:solid
-}
-.c66
-{
-border-right-style:solid;
-border-bottom-color:var(--sidebar-color);
-border-top-width:2.2pt;
-border-right-width:0pt;
-border-left-color:#efefef;
-vertical-align:middle;
-border-right-color:#efefef;
-border-left-width:0pt;
-border-top-style:solid;
-border-left-style:solid;
-border-bottom-width:2.2pt;
-width:141.8pt;
-border-top-color:var(--sidebar-color);
-border-bottom-style:solid
-}
 .c8
 {
-margin-left:29.7pt;
-padding-top:0pt;
-text-indent:-18pt;
-padding-bottom:0pt;
-line-height:1.0;
-orphans:2;
-widows:2;
-text-align:left;
-margin-right:-1.5pt
+	margin-left:29.7pt;
+	padding-top:0pt;
+	text-indent:-18pt;
+	padding-bottom:0pt;
+	line-height:1.0;
+	orphans:2;
+	widows:2;
+	text-align:left;
+	margin-right:-1.5pt
 }
+
 .c62
 {
 margin-left:29.7pt;
@@ -616,16 +530,6 @@ orphans:2;
 widows:2;
 text-align:right;
 height:10pt
-}
-.c25
-{
-color:#000000;
-font-weight:400;
-text-decoration:none;
-vertical-align:baseline;
-font-size:36pt;
-font-family:"Calibri";
-font-style:normal
 }
 .c23
 {
@@ -790,19 +694,6 @@ vertical-align:baseline;
 font-size:12pt;
 font-family:"Verdana"
 }
-.c31
-{
-font-size:40pt;
-font-family:"Calibri";
-font-weight:400
-}
-.c29
-{
-font-size:36pt;
-font-family:"Calibri";
-font-weight:400
-}
-
 
 .c27
 {
@@ -818,10 +709,6 @@ font-style:italic
 {
 margin-left:18pt;
 text-indent:-22.5pt
-}
-.c53
-{
-height:45pt
 }
 .c60
 {
@@ -880,49 +767,59 @@ height:10pt
 	border-bottom-style:solid
 }
 
-.c63
+.row-title
 {
-height:60pt
+	height: 72pt
 }
+.row-topspacer
+{
+	height: 9pt
+}
+.row-keyskills
+{
+	height:60pt
+}
+.row-experience
+{
+	height:264pt
+}
+.row-employment
+{
+	height:90pt
+}
+.row-education
+{
+	height:285pt
+}
+.row-languages
+{
+	height:72pt
+}
+.row-interests
+{
+	height:45pt
+}
+.row-bottomspace
+{
+	/*height:15pt*/
+	height:9pt
+}
+.row-bottombar
+{
+	height:18pt
+}
+
 .c49
 {
 height:12pt
-}
-.c58
-{
-height:285pt
-}
-.c55 /*bottom bar ? */
-{
-	background-color:var(--sidebar-color)
-}
-.c65
-{
-height:9pt
-}
-.c43
-{
-	height:15pt
 }
 .c54
 {
 	height:72pt
 }
-.c32
-{
-	height:18pt
-}
 .c37
 {
 	font-style:normal
-}
-.c30
-{
-	height:264pt
-}
-.c48
-{
-	height:90pt
 }
 .title
 {
@@ -1067,7 +964,8 @@ tr
 {	
 	background-color: var(--bgcol);
 }
-.c34:hover, .c24:hover, .c50:hover, .c55:hover
+
+.cell-title:hover, .cell-bottombar:hover
 {
 	background-color:var(--sidebar-hover);
 }
@@ -1085,4 +983,30 @@ body
 
 a {
 	color: black;
+}
+
+
+
+.title-text
+{
+color:#000000;
+font-weight:400;
+text-decoration:none;
+vertical-align:baseline;
+font-size:36pt;
+font-family:"Calibri";
+font-style:normal
+}
+.title-caps
+{
+font-size:40pt;
+font-family:"Calibri";
+font-weight:400
+}
+
+/* colors */
+
+.color-bottombar 
+{
+	background-color:var(--sidebar-color)
 }
