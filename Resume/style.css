@@ -466,7 +466,7 @@ table td,table th
 	color: #000055;
 	text-decoration: none;
 }
-.text-address-A a:hover
+.text-address a:hover
 {
 	color: #0000aa;
 	text-decoration: none;
@@ -650,6 +650,7 @@ table td,table th
 
 .row-address
 {
+	border-width: 0pt;
 	height:30pt
 }
 .row-title
@@ -815,6 +816,18 @@ h6
 	widows:2;
 	text-align:left
 }
+.container
+{
+
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width:491.7pt;	/*includes (border-width * 2) */
+	
+	background-color:var(--bgcol);
+	
+	border-width: 0pt;
+}
 
 .main-table
 {
@@ -823,14 +836,15 @@ h6
 	border-collapse:collapse;
 	margin-right:auto;
 	margin-left:auto;
-	/*width: 471.7pt;*/
-	width:491.7pt;	/*includes (border-width * 2) */
+	width: 471.7pt;
+	/*width:491.7pt;*/	/*includes (border-width * 2) */
 	
-  
-	border-width: 10pt;
+		
+	border-width: 0pt;
 	border-color: var(--bgcol);	
 	border-style: solid;
 }
+
 
 tr:hover 
 {
