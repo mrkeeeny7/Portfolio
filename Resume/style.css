@@ -1,8 +1,10 @@
 :root 
 {
+	/*--sidebar-color:#ece5e5;*/
 	--sidebar-color:#fce5cd;
 	--sidebar-hover:#fcf5fd;
 	--bgcol:#ffffff;
+	/*--bgcol:#efefef;*/
 	--bghover:#f5f5f5;
 	/*--sidebar-color:blue;*/
 }
@@ -237,166 +239,167 @@ table td,table th
 }
 
 
-/* table cells,borders */
-.c5
+.cell-address
 {
 	border-right-style:solid;
-	padding:5pt 5pt 5pt 5pt;
-	border-bottom-color:#efefef;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-bottom-style:solid;
+	
+	
+	border-bottom-color:var(--sidebar-color);
+	border-top-color:var(--bgcolor);
+	border-left-color:var(--bgcolor);
+	border-right-color:var(--bgcolor);
+	
 	border-top-width:0pt;
 	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:#efefef;
 	border-left-width:0pt;
-	border-top-style:solid;
-	/*background-color:#ffffff;*/
-	border-left-style:solid;
-	border-bottom-width:0pt;
-	width:230.2pt;
-	border-top-color:#efefef;
-	border-bottom-style:solid
-}
-.c44
-{
-	border-right-style:solid;
+	border-bottom-width:2.2pt;
+	
+	vertical-align:top;
 	padding:5pt 5pt 5pt 5pt;
-	border-bottom-color:#efefef;
-	border-top-width:2.2pt;
-	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:#efefef;
-	border-left-width:0pt;
-	border-top-style:solid;
-	border-left-style:solid;
-	border-bottom-width:0pt;
-	width:230.2pt;
-	border-top-color:var(--sidebar-color);
-	border-bottom-style:solid
-}
-.cell-main
-{
-	border-right-style:solid;
-	border-bottom-color:#efefef;
-	border-top-width:0pt;
-	border-right-width:0pt;
-	border-left-color:var(--sidebar-color);
-	vertical-align:top;
-	border-right-color:#efefef;
-	border-left-width:1.5pt;
-	border-top-style:solid;
-	/*background-color:#ffffff;*/
-	/*background-color:var(--sidebar-color);*/
-	border-left-style:solid;
-	border-bottom-width:0pt;
-	width:372pt;
-	border-top-color:#efefef;
-	border-bottom-style:solid
+	width:230.2pt
 }
 
-.cell-leftcolumn
+.cell-contact
 {
 	border-right-style:solid;
-	border-bottom-color:#efefef;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-bottom-style:solid;
+	
+	
+	border-bottom-color:var(--sidebar-color);
+	border-top-color:var(--bgcolor);
+	border-left-color:var(--bgcolor);
+	border-right-color:var(--bgcolor);
+	
+	border-top-width:0pt;
+	border-right-width:0pt;
+	border-left-width:0pt;
+	border-bottom-width:2.2pt;
+	
+	padding:5pt 5pt 5pt 5pt;
+	vertical-align:top;
+	width:241.5pt;
+}
+
+
+.cell-main
+{
+	border-top-width:0pt;
+	border-right-width:0pt;
+	border-left-width:1.5pt;
+	border-bottom-width:0pt;
+	
+	border-top-color:var(--bgcolor);
+	border-bottom-color:var(--bgcolor);
+	border-left-color:var(--sidebar-color);
+	border-right-color:var(--bgcolor);
+	
+	
+	border-right-style:solid;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-bottom-style:solid;
+	
+	vertical-align:top;
+	background-color:var(--bgcolor);
+	width:372pt
+}
+
+.cell-sidebar 	/* left column of the table */
+{
+	
+	border-right-color:var(--sidebar-color);
+	border-top-color:var(--bgcolor);
+	border-bottom-color:var(--bgcolor);
+	border-left-color:var(--bgcolor);
+	
 	border-top-width:0pt;
 	border-right-width:1.5pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:var(--sidebar-color);
 	border-left-width:0pt;
-	border-top-style:solid;
-	/*background-color:#ffffff;*/
-	border-left-style:solid;
 	border-bottom-width:0pt;
-	width:99.8pt;
-	border-top-color:#efefef;
-	border-bottom-style:solid
+	
+	border-right-style:solid;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-bottom-style:solid;
+		
+	background-color:var(--bgcolor);
+	vertical-align:top;
+	width:99.8pt
 }
 .cell-title
 {
 	border-right-style:solid;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-bottom-style:solid;
+	
 	border-bottom-color:var(--sidebar-color);
+	border-right-color:var(--bgcolor);
+	border-left-color:var(--bgcolor);
+	border-top-color:var(--sidebar-color);
+	
 	border-top-width:2.2pt;
 	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:middle;
-	border-right-color:#efefef;
 	border-left-width:0pt;
-	border-top-style:solid;
-	background-color:var(--sidebar-color);
-	border-left-style:solid;
 	border-bottom-width:2.2pt;
-	width:471.8pt;
-	border-top-color:var(--sidebar-color);
-	border-bottom-style:solid
+	
+	vertical-align:middle;	
+	background-color:var(--sidebar-color);
+	width:471.8pt
 }
 
-.c52
-{
-	border-right-style:solid;
-	padding:5pt 5pt 5pt 5pt;
-	border-bottom-color:#efefef;
-	border-top-width:0pt;
-	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:#efefef;
-	border-left-width:0pt;
-	border-top-style:solid;
-	border-left-style:solid;
-	border-bottom-width:0pt;
-	width:230.2pt;
-	border-top-color:#efefef;
-	border-bottom-style:solid
-}
 
 /* todo remove all border fortmatting except where necessary
 	use global default (0 border width)
 	*/
 .cell-topspacer		/* space cell between title and main body */
 {
-	border-bottom-color:#efefef;
-	border-top-width:2.2pt;
-	border-left-color:#efefef;
-	vertical-align:middle;
+	
+	border-right-width:0pt;
 	border-left-width:0pt;
-	border-top-style:solid;
-	border-left-style:solid;
 	border-bottom-width:0pt;
-	width:471.8pt;
-	border-bottom-style:solid
+	border-top-width:0pt;
+	
+	vertical-align:middle;
+	width:471.8pt
 }
 .cell-bottomspacer		/* added by me */
 {
-	border-bottom-color:#efefef;
-	/*border-top-width:2.2pt;*/
-	border-left-color:#efefef;
-	vertical-align:middle;
+	
+	border-right-width:0pt;
 	border-left-width:0pt;
-	/*border-top-style:solid;*/
-	border-left-style:solid;
 	border-bottom-width:0pt;
-	width:471.8pt;
-	border-bottom-style:solid
+	border-top-width:0pt;
+	
+	vertical-align:middle;
+	width:471.8pt
 }
 .cell-bottombar
 {
+
 	border-right-style:solid;
+	border-top-style:solid;
+	border-left-style:solid;
+	border-bottom-style:solid;
+	
 	border-bottom-color:var(--sidebar-color);
+	border-right-color:var(--bgcolor);
+	border-left-color:var(--bgcolor);
+	border-top-color:var(--sidebar-color);
+	
 	border-top-width:2.2pt;
 	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:middle;
-	border-right-color:#efefef;
 	border-left-width:0pt;
-	border-top-style:solid;
-	background-color:var(--sidebar-color);
-	border-left-style:solid;
 	border-bottom-width:2.2pt;
-	width:471.8pt;
-	border-top-color:var(--sidebar-color);
-	border-bottom-style:solid
+	
+	vertical-align:middle;
+	background-color:var(--sidebar-color);
+	width:471.8pt
 }
 .text-subheading-A
 {
@@ -604,6 +607,10 @@ table td,table th
 	font-weight:400;
 	font-style:italic
 }
+.text-address
+{
+	font-size:9pt
+}
 .italic-normal
 {
 	font-style:italic
@@ -620,59 +627,19 @@ table td,table th
 	margin-left:18pt;
 	text-indent:-22.5pt
 }
-.addressline
-{
-font-size:9pt
-}
 .vgap-10pt
 {
 	height:10pt
 }
 
 
-.trAddress
+
+
+
+.row-address
 {
 	height:30pt
 }
-
-.tdAddress
-{
-	border-right-style:solid;
-	padding:5pt 5pt 5pt 5pt;
-	border-bottom-color:var(--sidebar-color);
-	border-top-width:0pt;
-	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:#efefef;
-	border-left-width:0pt;
-	border-top-style:solid;
-	border-left-style:solid;
-	border-bottom-width:2.2pt;
-	width:230.2pt;
-	border-top-color:#efefef;
-	border-bottom-style:solid
-}
-
-.tdEmail
-{
-	border-right-style:solid;
-	padding:5pt 5pt 5pt 5pt;
-	border-bottom-color:var(--sidebar-color);
-	border-top-width:0pt;
-	border-right-width:0pt;
-	border-left-color:#efefef;
-	vertical-align:top;
-	border-right-color:#efefef;
-	border-left-width:0pt;
-	border-top-style:solid;
-	border-left-style:solid;
-	border-bottom-width:2.2pt;
-	width:241.5pt;
-	border-top-color:#efefef;
-	border-bottom-style:solid
-}
-
 .row-title
 {
 	height: 72pt
@@ -715,18 +682,6 @@ font-size:9pt
 	height:50pt
 }
 
-.c49
-{
-height:12pt
-}
-.c54
-{
-	height:72pt
-}
-.c37
-{
-	font-style:normal
-}
 .title
 {
 	padding-top:0pt;
@@ -752,6 +707,9 @@ height:12pt
 	widows:2;
 	text-align:left
 }
+
+
+/* HTML elements */
 li
 {
 	color:#000000;
@@ -895,24 +853,18 @@ a {
 
 .title-text
 {
-color:#000000;
-font-weight:400;
-text-decoration:none;
-vertical-align:baseline;
-font-size:36pt;
-font-family:"Calibri";
-font-style:normal
+	color:#000000;
+	font-weight:400;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:36pt;
+	font-family:"Calibri";
+	font-style:normal
 }
 .title-caps
 {
-font-size:40pt;
-font-family:"Calibri";
-font-weight:400
+	font-size:40pt;
+	font-family:"Calibri";
+	font-weight:400
 }
 
-/* colors */
-
-.color-bottombar 
-{
-	background-color:var(--sidebar-color)
-}
