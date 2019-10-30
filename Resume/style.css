@@ -414,16 +414,155 @@ table td,table th
 	margin-right:-1.5pt
 }
 
-.text-subheading-A-underline	/*TODO remove*/
+.text-subheading-A a:link
 {
-	margin-left:29.7pt;
-	padding-top:0pt;
-	text-indent:-17.7pt;
+	color: #000055;
+	text-decoration: none;
+}
+.text-subheading-A a:hover
+{
+	color: #0000aa;
+	text-decoration: none;
+}
+
+.text-subheading-B	/* the italic bit */
+{
+	color:#000000;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:11pt;
+	font-family:"Verdana"
+}
+
+.title-h1
+{
+	margin-left:45pt;
+	padding-top:16pt;
+	text-indent:-18pt;
 	padding-bottom:0pt;
 	line-height:1.0;
-	orphans:2;
-	widows:2;
-	text-align:left
+	page-break-after:avoid;
+	text-align:right;
+	margin-right:48.8pt
+}
+
+.date-text
+{
+	color:#666666;
+	font-weight:400;		/* very light text */
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:10pt;
+	font-family:"Verdana";
+	font-style:normal
+}
+
+.text-address
+{
+	font-size:9pt
+}
+.text-address a:link
+{
+	color: #000055;
+	text-decoration: none;
+}
+.text-address-A a:hover
+{
+	color: #0000aa;
+	text-decoration: none;
+}
+
+.text-normal
+{
+	color:#000000;
+	font-weight:400;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:10pt;
+	font-family:"Verdana";
+	font-style:normal
+}
+
+.text-section-heading
+{
+	color:#000000;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:12pt;
+	font-family:"Verdana";
+	font-style:normal
+}
+
+.text-keyskills
+{
+	color:#000000;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:10pt;
+	font-family:"Verdana";
+	font-style:normal
+}
+
+
+.bulletlist-main
+{
+	padding:0;
+	margin:0
+}
+.italic-light
+{
+	font-weight:400;
+	font-style:italic
+}
+.italic-normal
+{
+	font-style:italic
+}
+.bold
+{
+	font-weight:700
+}
+
+.light
+{
+	font-weight:400
+}
+
+
+
+.other-text1
+{
+	color:#666666;
+	font-weight:400;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:11pt;
+	font-family:"Verdana"
+}
+.other-text2
+{
+	color:#000000;
+	font-weight:400;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:24pt;
+	font-family:"Verdana"
+}
+.other-text3
+{
+	color:#000000;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:8pt;
+	font-family:"Verdana"
+}
+.other-text4
+{
+	color:#000000;
+	text-decoration:none;
+	vertical-align:baseline;
+	font-size:12pt;
+	font-family:"Verdana"
 }
 
 .bulletlist-entry
@@ -478,75 +617,6 @@ table td,table th
 	widows:2;
 	text-align:right
 }
-.title-h1
-{
-	margin-left:45pt;
-	padding-top:16pt;
-	text-indent:-18pt;
-	padding-bottom:0pt;
-	line-height:1.0;
-	page-break-after:avoid;
-	text-align:right;
-	margin-right:48.8pt
-}
-
-.date-text
-{
-	color:#666666;
-	font-weight:400;		/* very light text */
-	text-decoration:none;
-	vertical-align:baseline;
-	font-size:10pt;
-	font-family:"Verdana";
-	font-style:normal
-}
-
-.text-normal
-{
-	color:#000000;
-	font-weight:400;
-	text-decoration:none;
-	vertical-align:baseline;
-	font-size:10pt;
-	font-family:"Verdana";
-	font-style:normal
-}
-
-.other-text1
-{
-	color:#666666;
-	font-weight:400;
-	text-decoration:none;
-	vertical-align:baseline;
-	font-size:11pt;
-	font-family:"Verdana"
-}
-.other-text2
-{
-	color:#000000;
-	font-weight:400;
-	text-decoration:none;
-	vertical-align:baseline;
-	font-size:24pt;
-	font-family:"Verdana"
-}
-.other-text3
-{
-	color:#000000;
-	text-decoration:none;
-	vertical-align:baseline;
-	font-size:8pt;
-	font-family:"Verdana"
-}
-.other-text4
-{
-	color:#000000;
-	text-decoration:none;
-	vertical-align:baseline;
-	font-size:12pt;
-	font-family:"Verdana"
-}
-
 .section-heading
 {
 	padding-top:16pt;
@@ -557,64 +627,6 @@ table td,table th
 	margin-right:19.8pt
 }
 
-
-.text-section-heading
-{
-	color:#000000;
-	text-decoration:none;
-	vertical-align:baseline;
-	font-size:12pt;
-	font-family:"Verdana";
-	font-style:normal
-}
-
-.bold
-{
-	font-weight:700
-}
-
-.light
-{
-	font-weight:400
-}
-
-.text-keyskills
-{
-	color:#000000;
-	text-decoration:none;
-	vertical-align:baseline;
-	font-size:10pt;
-	font-family:"Verdana";
-	font-style:normal
-}
-
-.text-subheading-B
-{
-	color:#000000;
-	text-decoration:none;
-	vertical-align:baseline;
-	font-size:11pt;
-	font-family:"Verdana"
-}
-
-.bulletlist-main
-{
-	padding:0;
-	margin:0
-}
-.italic-light
-{
-	font-weight:400;
-	font-style:italic
-}
-.text-address
-{
-	font-size:9pt
-}
-.italic-normal
-{
-	font-style:italic
-}
 .contact-para
 {
 	padding-top:0pt;
