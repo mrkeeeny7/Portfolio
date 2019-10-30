@@ -290,7 +290,7 @@ table td,table th
 {
 	border-top-width:0pt;
 	border-right-width:0pt;
-	border-left-width:1.5pt;
+	border-left-width:1.5pt;		/* this is the visible divider */
 	border-bottom-width:0pt;
 	
 	border-top-color:var(--bgcolor);
@@ -318,7 +318,7 @@ table td,table th
 	border-left-color:var(--bgcolor);
 	
 	border-top-width:0pt;
-	border-right-width:1.5pt;
+	border-right-width:1.5pt;		/* this is the visible divider */
 	border-left-width:0pt;
 	border-bottom-width:0pt;
 	
@@ -850,7 +850,7 @@ a {
 }
 
 
-
+/* Style of the title (name) text */
 .title-text
 {
 	color:#000000;
