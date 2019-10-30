@@ -816,7 +816,7 @@ h6
 	text-align:left
 }
 
-.mainTable
+.main-table
 {
 	display:block;
 	border-spacing:0;
@@ -824,7 +824,7 @@ h6
 	margin-right:auto;
 	margin-left:auto;
 	/*width: 471.7pt;*/
-	width:491.7pt;	/*inculdes (border-width * 2) */
+	width:491.7pt;	/*includes (border-width * 2) */
 	
   
 	border-width: 10pt;
@@ -839,6 +839,7 @@ tr:hover
 tr
 {	
 	background-color: var(--bgcol);
+	border-width: 0pt;
 }
 
 .cell-title:hover, .cell-bottombar:hover
