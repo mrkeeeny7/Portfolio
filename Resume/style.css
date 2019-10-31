@@ -286,6 +286,22 @@ table td,table th
 }
 
 
+.cell-summary
+{
+	border-top-width:0pt;
+	border-right-width:0pt;
+	border-left-width:0pt;
+	border-bottom-width:0pt;
+	
+	padding-left:50pt;
+	padding-right:50pt;
+	
+	vertical-align:top;
+	background-color:var(--bgcolor);
+	width:372pt
+}
+
+
 .cell-main
 {
 	border-top-width:0pt;
@@ -606,6 +622,11 @@ table td,table th
 	margin-right:39pt
 }
 
+.languages-para
+{
+	padding-top:20pt;
+}
+
 .address-para
 {
 	margin-left:36pt;
@@ -659,7 +680,11 @@ table td,table th
 }
 .row-topspacer
 {
-	height: 25pt
+	height: 10pt
+}
+.row-summary
+{
+	height:auto
 }
 .row-keyskills
 {
@@ -667,7 +692,8 @@ table td,table th
 }
 .row-experience
 {
-	height:264pt
+	/*height:264pt*/
+	height:auto
 }
 .row-employment
 {
@@ -679,7 +705,8 @@ table td,table th
 }
 .row-languages
 {
-	height:72pt
+	/*height:72pt*/
+	height:60pt
 }
 .row-interests
 {
