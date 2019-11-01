@@ -1,8 +1,11 @@
 :root 
 {
-	/*--sidebar-color:#ece5e5;*/
-	--sidebar-color:#fce5cd;
+	--sidebar-color:#f5e5e5;
+	/*--sidebar-color:#e5e5e5;*/	/*grey*/
+	/*--sidebar-color:#fce5cd;*/
 	--sidebar-hover:#fcf5fd;
+	
+	--border-color:#777777;
 	--bgcol:#ffffff;
 	/*--bgcol:#efefef;*/
 	--bghover:#f5f5f5;
@@ -247,7 +250,7 @@ table td,table th
 	border-bottom-style:solid;
 	
 	
-	border-bottom-color:var(--sidebar-color);
+	border-bottom-color:var(--border-color);
 	border-top-color:var(--bgcolor);
 	border-left-color:var(--bgcolor);
 	border-right-color:var(--bgcolor);
@@ -270,7 +273,7 @@ table td,table th
 	border-bottom-style:solid;
 	
 	
-	border-bottom-color:var(--sidebar-color);
+	border-bottom-color:var(--border-color);
 	border-top-color:var(--bgcolor);
 	border-left-color:var(--bgcolor);
 	border-right-color:var(--bgcolor);
@@ -311,7 +314,7 @@ table td,table th
 	
 	border-top-color:var(--bgcolor);
 	border-bottom-color:var(--bgcolor);
-	border-left-color:var(--sidebar-color);
+	border-left-color:var(--border-color);
 	border-right-color:var(--bgcolor);
 	
 	
@@ -328,7 +331,7 @@ table td,table th
 .cell-sidebar 	/* left column of the table */
 {
 	
-	border-right-color:var(--sidebar-color);
+	border-right-color:var(--border-color);
 	border-top-color:var(--bgcolor);
 	border-bottom-color:var(--bgcolor);
 	border-left-color:var(--bgcolor);
@@ -349,20 +352,16 @@ table td,table th
 }
 .cell-title
 {
-	border-right-style:solid;
 	border-top-style:solid;
-	border-left-style:solid;
 	border-bottom-style:solid;
 	
-	border-bottom-color:var(--sidebar-color);
-	border-right-color:var(--bgcolor);
-	border-left-color:var(--bgcolor);
-	border-top-color:var(--sidebar-color);
+	border-bottom-color:var(--border-color);
+	border-top-color:var(--border-color);
 	
 	border-top-width:2.2pt;
+	border-bottom-width:2.2pt;
 	border-right-width:0pt;
 	border-left-width:0pt;
-	border-bottom-width:2.2pt;
 	
 	vertical-align:middle;	
 	background-color:var(--sidebar-color);
@@ -403,10 +402,10 @@ table td,table th
 	border-left-style:solid;
 	border-bottom-style:solid;
 	
-	border-bottom-color:var(--sidebar-color);
+	border-bottom-color:var(--border-color);
 	border-right-color:var(--bgcolor);
 	border-left-color:var(--bgcolor);
-	border-top-color:var(--sidebar-color);
+	border-top-color:var(--border-color);
 	
 	border-top-width:2.2pt;
 	border-right-width:0pt;
@@ -452,13 +451,14 @@ table td,table th
 
 .title-h1
 {
-	margin-left:45pt;
+	margin-left:75pt;
 	padding-top:16pt;
 	text-indent:-18pt;
 	padding-bottom:0pt;
 	line-height:1.0;
 	page-break-after:avoid;
-	text-align:right;
+	/*text-align:right;*/
+	text-align:left;
 	margin-right:48.8pt
 }
 
